@@ -17,7 +17,7 @@ html {
   --icons-details: #a5b0c1;
   /*Grey colors*/
   --grey-dark: #4d5e77;
-  --grey-ble: #a1b2cd;
+  --grey-blue: #a1b2cd;
   --grey-light: #e5eaf1;
   /*Fonts*/
   font-size: 62.5%;
@@ -48,4 +48,51 @@ textarea {
   clip-path: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+/* INPUT*/
+button,
+input,
+.button {
+  height: 5rem;
+  border-radius: 0.8rem;
+}
+
+button,
+.button {
+  font-family: 'Poppins';
+  font-weight: 500;
+  line-height: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--blue);
+  color: var(--white);
+
+  cursor: pointer;
+  transition: filter 0.3s;
+}
+button:hover,
+.button:hover {
+  filter: brightness(1.2);
+}
+
+button > img .button > img {
+  margin-right: 1rem;
+  width: 2rem;
+}
+button.outlined,
+.button.outlined {
+  background: var(--white);
+
+  color: var(--blue);
+  border: 0.2rem solid var(--blue);
+}
+.content header {
+  width: 80%;
+  margin: 3.5rem auto;
+}
+.content header img {
+  width: 16.7rem;
 }
