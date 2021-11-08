@@ -23,6 +23,7 @@ html {
   font-size: 62.5%;
 }
 body {
+  display: flex;
   height: 100vh; /*vh = view height: altura da visualizacao da etal.*/
   background: var(--background);
 }

@@ -11,7 +11,7 @@ header {
 }
 #bg {
   grid-area: left;
-  background: url('/assets/home-bg-img.png') no-repeat top/contain;
+  background: url('/assets/home-bg-img.svg') no-repeat top/contain;
 }
 main {
   grid-area: right;
@@ -19,7 +19,7 @@ main {
   align-items: center;
 }
 main .container {
-  width: min(36.3rem 100%);
+  width: min(36.3rem, 100%);
 }
 main h2 {
   font-family: 'Poppins', sans-serif;
