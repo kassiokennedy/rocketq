@@ -1,0 +1,29 @@
+.content {
+  max-width: 90%;
+}
+#room header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#room header .buttons {
+  display: flex; /*faz os botoes ficarem um ao lado do outro*/
+}
+#room header .buttons .button:nth-child(1) {
+  margin-right: 0.8rem;
+  padding: 1.3rem 1rem;
+}
+#room header .buttons .button:nth-child(1) img {
+  margin-left: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+}
+#room header .buttons .button:nth-child(2) {
+  padding: 1.3rem 3.2rem;
+}
+#room header .buttons .button:nth-child(2) img {
+  margin-right: 0;
+  width: 2rem;
+  height: 2rem;
+}
