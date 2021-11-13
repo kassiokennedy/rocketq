@@ -32,7 +32,7 @@ body,
 button,
 input,
 textarea {
-  font-size: clamp(14px, 1.6ram, 2vw);
+  font-size: clamp(14px, 1.6rem, 2vw);
   font-family: 'Open Sans', sans-serif;
   /*font-family: 'Poppins', sans-serif;*/
 }
@@ -92,6 +92,21 @@ button.outlined,
   color: var(--blue);
   border: 0.2rem solid var(--blue);
 }
+
+/**/
+button.red,
+.button.red {
+  background: var(--red);
+  color: var(--white);
+  font-family: 'Poppins', sans-serif;
+}
+button.grey,
+.button.grey {
+  background: var(--grey-light);
+  color: var(--grey-dark);
+  font-family: 'Poppins', sans-serif;
+}
+/*Header*/
 .content header {
   width: 80%;
   margin: 3.5rem auto;
