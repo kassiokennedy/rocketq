@@ -27,7 +27,7 @@
   width: 2rem;
   height: 2rem;
 }
-/*Question form*/
+/*--- Question form----*/
 #question-form h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.8rem;
@@ -95,7 +95,6 @@
   word-break: break-word;
   display: flex;
   align-items: center;
-  
 }
 .question-wrapper .actions {
   display: flex;
