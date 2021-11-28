@@ -7,8 +7,8 @@
     <meta http-equiv="U-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS -->
-    <link rel="stylesheet" href="styles/global.css" />
-    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/home.css" />
     <!--  -->
     <link rel="stylesheet" href="" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,37 +22,16 @@
   <body>
     <div id="home" class="content">
       <header>
-        <img src="images/logo.png" alt="Rocket.Q Logo" />
+        <img src="/images/logo.png" alt="Rocket.Q Logo" />
       </header>
       <div id="bg"></div>
       <div class="ball top"></div>
       <div class="ball bottom"></div>
-
       <main>
         <div class="container">
-          <section>
-            <h2>Entre como participante</h2>
-            <form action="">
-              <label class="sr-only" for="room-id">Código da sala</label>
-              <input type="number" id="room-id" placeholder="Código da sala" />
-              <button>
-                <img src="images/enter-room.png" alt="" />
-                Entrar na sala
-              </button>
-            </form>
-          </section>
-          <div class="separator">
-            <div></div>
-            <div>ou</div>
-            <div></div>
-          </div>
-          <section>
-            <h2>Crie sua propria sala de forma facil.</h2>
-            <a href="create-room.html" class="button outlined">
-              <img src="images/users.png" alt="" />
-              Criar sala
-            </a>
-          </section>
+          <!-- Fonts -->
+          <%- include(`parts/${page}`) %>
+          <!------------->
         </div>
       </main>
     </div>
